@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'mongoid', '~> 5.0'
+  gem.add_dependency 'mongoid', '~> 6.1.0'
   gem.add_dependency 'rubyzip', '~> 1.0'
   gem.add_dependency 'zip-zip', "~> 0.3"
   gem.add_dependency 'delayed_job_mongoid', '~> 2.2'
